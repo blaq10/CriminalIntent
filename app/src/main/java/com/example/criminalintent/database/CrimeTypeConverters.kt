@@ -5,6 +5,7 @@ import java.util.Date
 import java.util.UUID
 
 class CrimeTypeConverters {
+
     @TypeConverter
     fun fromDate(date: Date?): Long? {
         return date?.time
